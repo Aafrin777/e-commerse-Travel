@@ -1,0 +1,50 @@
+.card-dest{
+  width: 99vw;
+  position: relative;
+  z-index: 1;
+  .headline{
+    
+    color:white;
+    font-size: 40px;
+    padding:86px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+}
+.card-dest .card-head {
+  box-sizing: border-box;
+  margin:1px;
+  outline:none;
+  display:flex;
+  padding-bottom: 4rem;
+  cursor: grab;
+}
+
+.card-head:active {
+  cursor: grabbing;
+}
+
+
+
+.card-head {
+  img{
+   
+    padding-right: 1rem;
+    display:flex;
+    width: 430px;
+    border-radius:2rem; 
+  }
+}
+.card-dest{
+  .card-head p {
+width:100%;
+  text-align: center;
+  text-decoration: none;
+  color:white; 
+font-size: 34px;
+transform: translate(-15% , -170%);
+}              
+}
+
+
+          
